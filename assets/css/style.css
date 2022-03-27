@@ -1,0 +1,98 @@
+#map {
+    height: 100%;
+  }
+html, body {
+    height: 100%;
+    margin: 0;
+    padding-top: 32px;
+  }
+  
+
+
+.leaflet-control-attribution a {
+    color: #6d6e70 !important;
+    cursor: pointer;
+}
+
+.info {
+    padding: 6px 8px;
+    font: 8px/10px Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255); 
+    box-shadow: 0 0 15px rgba(37, 36, 36, 0.377); 
+    border-radius: 5px; 
+} 
+
+.legend {
+    text-align: left; 
+    line-height: 18px;
+    color: #555; 
+    padding: 8px 8px;
+    font: 10px;
+    background: rgba(255, 255, 255, 0.925); 
+    box-shadow: 0 0 15px rgba(37, 36, 36, 0.377); 
+    border-radius: 5px;
+}
+
+.legend i { 
+    width: 18px;
+    height: 12px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+    color: #000;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: rgb(61, 59, 59);
+}
+
+.info p{
+    text-align: left;
+    font-size: 11px;
+    color: #181818;
+
+}
+
+.info img {
+    width: 84px;
+    height: 44px;
+}
+
+.legend img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.popup-table {
+    border-collapse: collapse;
+    width: 120px;
+}
+
+.popup-table-row,.popup-table-header {
+    border: 0.5px solid;
+    text-align: left;
+    padding: 1px;
+    
+}
+
+.popup-table-row:nth-child(odd) {
+    background-color: rgba(192, 189, 189, 0.39);
+}
+
+.popup-table-1 {
+    border-collapse: collapse;
+    width: 180px;
+}
+
+.popup-table-row-1,.popup-table-header-1 {
+    border: 0.5px solid;
+    text-align: left;
+    padding: 1px;
+    
+}
+
+.popup-table-row-1:nth-child(odd) {
+    background-color: rgba(192, 189, 189, 0.39);
+}
