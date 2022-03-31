@@ -110,10 +110,6 @@ function onEachBranch(feature, layer) {
             <td id="value-speed" class="popup-table-data">'+ feature.properties.EMAIL +'</td>\
           </tr>\
           <tr class="popup-table-row">\
-            <th class="popup-table-header">Coords</th>\
-            <td id="value-speed" class="popup-table-data">'+ feature.properties.geometry.coordinates +'</td>\
-          </tr>\
-          <tr class="popup-table-row">\
             <th class="popup-table-header">Location</th>\
             <td id="value-speed" class="popup-table-data">'+ feature.properties.LOCATION_1 +'</td>\
           </tr>\
@@ -178,8 +174,8 @@ function highlightFeature(e) {
     
     let layer = e.target;
     layer.setStyle({
-        weight: 3,
-        color: '#666',
+        weight: 2.5,
+        color: '#FF4500',
         dashArray: '',
         fillOpacity: 0
     });
