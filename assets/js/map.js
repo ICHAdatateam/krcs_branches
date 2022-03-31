@@ -64,7 +64,7 @@ let myStyle = {
     "fillColor": '#759e90',
     "fillOpacity": 0,
     "color": '#5902EC',
-    "weight": 1.5,
+    "weight": 0.8,
 };
 
 
@@ -115,7 +115,7 @@ function onEachBranch(feature, layer) {
           </tr>\
           <tr class="popup-table-row">\
             <th class="popup-table-header">Location</th>\
-            <td id="value-speed" class="popup-table-data">'+ feature.properties.LOCATION_1 +'</td>\
+            <td id="value-speed" class="popup-table-data">'+ feature.properties.SITUATION +'</td>\
           </tr>\
         </table>';
         var customOptions = {
