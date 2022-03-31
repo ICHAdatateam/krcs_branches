@@ -111,7 +111,7 @@ function onEachBranch(feature, layer) {
           </tr>\
           <tr class="popup-table-row">\
             <th class="popup-table-header">Coords</th>\
-            <td id="value-speed" class="popup-table-data">'+ feature.properties.lat +', '+ feature.properties.lng +'</td>\
+            <td id="value-speed" class="popup-table-data">'+ feature.properties.geometry.coordinates +'</td>\
           </tr>\
           <tr class="popup-table-row">\
             <th class="popup-table-header">Location</th>\
