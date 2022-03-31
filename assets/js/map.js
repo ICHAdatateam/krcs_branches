@@ -115,7 +115,7 @@ function onEachBranch(feature, layer) {
           </tr>\
           <tr class="popup-table-row">\
             <th class="popup-table-header">Location</th>\
-            <td id="value-speed" class="popup-table-data">'+ feature.properties.SITUATION +'</td>\
+            <td id="value-speed" class="popup-table-data">'+ feature.properties.LOCATION_1 +'</td>\
           </tr>\
         </table>';
         var customOptions = {
