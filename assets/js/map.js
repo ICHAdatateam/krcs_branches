@@ -82,16 +82,12 @@ function onEachBranch(feature, layer) {
             <td id="value-arc" class="popup-table-data">' + feature.properties.Location + '</td>\
           </tr>\
           <tr class="popup-table-row">\
-            <th class="popup-table-header">Town</th>\
-            <td id="value-speed" class="popup-table-data">'+ feature.properties.TOWN +'</td>\
+            <th class="popup-table-header">Regional Hq.</th>\
+            <td id="value-speed" class="popup-table-data">'+ feature.properties.Regional_HQ +'</td>\
           </tr>\
           <tr class="popup-table-row">\
             <th class="popup-table-header">County</th>\
             <td id="value-speed" class="popup-table-data">'+ feature.properties.COUNTY +'</td>\
-          </tr>\
-          <tr class="popup-table-row">\
-            <th class="popup-table-header">Regional HQ</th>\
-            <td id="value-speed" class="popup-table-data">'+ feature.properties.Regional_HQ +'</td>\
           </tr>\
           <tr class="popup-table-row">\
             <th class="popup-table-header">Region</th>\
@@ -100,10 +96,6 @@ function onEachBranch(feature, layer) {
           <tr class="popup-table-row">\
             <th class="popup-table-header">Coordinator:</th>\
             <td id="value-speed" class="popup-table-data">' + feature.properties.COUNTY_COORDINATOR +'</td>\
-          </tr>\
-          <tr class="popup-table-row">\
-            <th class="popup-table-header">Contact</th>\
-            <td id="value-speed" class="popup-table-data">'+ feature.properties.PHONE +'</td>\
           </tr>\
           <tr class="popup-table-row">\
             <th class="popup-table-header">Email</th>\
@@ -175,7 +167,7 @@ function highlightFeature(e) {
     let layer = e.target;
     layer.setStyle({
         weight: 2.5,
-        color: '#FF4500',
+        color: '#423c38',
         dashArray: '',
         fillOpacity: 0
     });
