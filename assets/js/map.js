@@ -94,10 +94,6 @@ function onEachBranch(feature, layer) {
             <td id="value-speed" class="popup-table-data">'+ feature.properties.REGION +'</td>\
           </tr>\
           <tr class="popup-table-row">\
-            <th class="popup-table-header">Coordinator:</th>\
-            <td id="value-speed" class="popup-table-data">' + feature.properties.COUNTY_COORDINATOR +'</td>\
-          </tr>\
-          <tr class="popup-table-row">\
             <th class="popup-table-header">Email</th>\
             <td id="value-speed" class="popup-table-data">'+ feature.properties.EMAIL +'</td>\
           </tr>\
