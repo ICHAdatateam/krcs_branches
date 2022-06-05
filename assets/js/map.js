@@ -107,8 +107,8 @@ function onEachBranch(feature, layer) {
           </tr>\
         </table>';
         var customOptions = {
-            'maxWidth': '120px',
-            'width': '120px',}
+            'maxWidth': '110px',
+            'width': '100px',}
 
         layer.bindPopup(popupContent,customOptions);
     }
@@ -125,7 +125,7 @@ var Options = {
 
 var arcIcon = L.icon({
     iconUrl: 'assets/imgs/redCross.png',
-    iconSize: [16],
+    iconSize: [14],
 });
 
 
