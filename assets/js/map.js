@@ -78,16 +78,16 @@ function onEachBranch(feature, layer) {
     if (feature.properties) {
         var popupContent = '<table class="popup-table">\
           <tr class="popup-table-row">\
-            <th class="popup-table-header">Branch</th>\
+            <th class="popup-table-header">Branch (County)</th>\
+            <td id="value-speed" class="popup-table-data">'+ feature.properties.COUNTY +'</td>\
+          </tr>\
+          <tr class="popup-table-row">\
+            <th class="popup-table-header">Location</th>\
             <td id="value-arc" class="popup-table-data">' + feature.properties.Location + '</td>\
           </tr>\
           <tr class="popup-table-row">\
             <th class="popup-table-header">Regional Hq.</th>\
             <td id="value-speed" class="popup-table-data">'+ feature.properties.Regional_HQ +'</td>\
-          </tr>\
-          <tr class="popup-table-row">\
-            <th class="popup-table-header">County</th>\
-            <td id="value-speed" class="popup-table-data">'+ feature.properties.COUNTY +'</td>\
           </tr>\
           <tr class="popup-table-row">\
             <th class="popup-table-header">Region</th>\
